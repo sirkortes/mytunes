@@ -13,6 +13,11 @@ var AppView = Backbone.View.extend({
   },
 
   render: function() {
+
+    // crazy test
+    // this.$el.children().detach();
+
+
     return this.$el.html([
       this.playerView.$el,
       this.libraryView.$el
